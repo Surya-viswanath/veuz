@@ -1,448 +1,211 @@
-/* .container {
-    position: relative;
-    width: 800px; 
-    height: 400px; 
-    overflow: hidden;
-  }
-  
-  .background {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    animation: backgroundAnimation 6s infinite;
-  }
-  
-  .window1, .window2, .window3{
-    margin-top: 14%;
-    position: absolute;
-    width: 100px; 
-    height: 100px;
-    overflow: hidden;
-  }
-  
-  .window1 img {
-    width: 62px;
-    height: 97px;
-    margin-left: 20%;
-    border-radius: 20px;
-  }
-  .window2 img {
-    width: 62px;
-    height: 97px;
-    border-radius: 20px;
-  }
-  .window3 img {
-    width: 62px;
-    height: 97px;
-    border-radius: 20px;
-  }
-  
-  @keyframes backgroundAnimation {
-    0%, 33.33% { background-image: url('./images/flight1.png'); }
-    33.34%, 66.66% { background-image: url('./images/flight3.png'); }
-    66.67%, 100% { background-image: url('./images/flight2.png'); }
-  }  */
 
 
-
-/*   
-  .container {
-    position: relative;
-    width: 800px; 
-    height: 400px; 
-    overflow: hidden;
-}
-
-.background {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    animation: backgroundAnimation 6s infinite;
-}
-
-.window1, .window2, .window3 {
-    margin-top: 14%;
-    position: absolute;
-    width: 100px; 
-    height: 100px; 
-    overflow: hidden;
-}
-
-.image {
-    width: 62px;
-    height: 97px;
-    border-radius: 20px;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.step0 .background {
-    background-image: url('./images/flight1.png');
-}
-
-.step1 .background {
-    background-image: url('./images/flight3.png');
-}
-
-.step2 .background {
-    background-image: url('./images/flight2.png');
-}
-
-.step2 .image {
-    opacity: 1;
-}
-
-@keyframes backgroundAnimation {
-    0%, 33.33% { background-image: url('./images/flight1.png'); }
-    33.34%, 66.66% { background-image: url('./images/flight3.png'); }
-    66.67%, 100% { background-image: url('./images/flight2.png'); }
-} */
-
-
-/* 
-.container {
-  position: relative;
-  width: 800px; 
-  height: 400px; 
-  overflow: hidden;
-}
-
-.background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  animation: backgroundAnimation 6s infinite;
-}
-
-.window1, .window2, .window3 {
-  margin-top: 14%;
-  position: absolute;
-  width: 100px; 
-  height: 100px;
-  overflow: hidden;
-}
-
-.image {
-  width: 62px;
-  height: 97px;
-  border-radius: 20px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.step0 .background {
-  background-image: url('./images/flight1.png');
-}
-
-.step1 .background {
-  background-image: url('./images/flight3.png');
-}
-
-.step2 .background {
-  background-image: url('./images/flight2.png');
-}
-
-.step2 .window1 img {
-  opacity: 1;
-}
-
-@keyframes backgroundAnimation {
-  0%, 33.33% { background-image: url('./images/flight1.png'); }
-  33.34%, 66.66% { background-image: url('./images/flight3.png'); }
-  66.67%, 100% { background-image: url('./images/flight2.png'); }
-} */
-
-
-
-/* 
-.container {
-  position: relative;
-  width: 800px; 
-  height: 400px;
-  overflow: hidden;
-}
-
-.background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  animation: backgroundAnimation 6s infinite;
-}
-
-.window1, .window2, .window3 {
-  margin-top: 14%;
-  position: absolute;
-  width: 100px; 
-  height: 100px; 
-  overflow: hidden;
-}
-
-.image {
-  width: 62px;
-  height: 97px;
-  border-radius: 20px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.step0 .background {
-  background-image: url('./images/flight1.png');
-}
-
-.step1 .background {
-  background-image: url('./images/flight3.png');
-}
-
-.step2 .background {
-  background-image: url('./images/flight2.png');
-}
-
-.step2 .image {
-  opacity: 1;
-}
-
-@keyframes backgroundAnimation {
-  0%, 33.33% { background-image: url('./images/flight1.png'); }
-  33.34%, 66.66% { background-image: url('./images/flight3.png'); }
-  66.67%, 100% { background-image: url('./images/flight2.png'); }
-} */
-
-
-
-
-/* 
-.container {
-  position: relative;
-  width: 800px; 
-  height: 400px; 
-  overflow: hidden;
-}
-
-.background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  animation: backgroundAnimation 6s infinite;
-}
-
-.window1, .window2, .window3 {
-  margin-top: 14%;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-}
-
-.image {
-  width: 62px;
-  height: 97px;
-  border-radius: 20px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.step0 .background {
-  background-image: url('./images/flight1.png');
-}
-
-.step1 .background {
-  background-image: url('./images/flight3.png');
-}
-
-.step2 .background {
-  background-image: url('./images/flight2.png');
-}
-
-.step2 .image {
-  opacity: 1;
-}
-
-@keyframes backgroundAnimation {
-  0%, 33.33% { background-image: url('./images/flight1.png'); }
-  33.34%, 66.66% { background-image: url('./images/flight3.png'); }
-  66.67%, 100% { background-image: url('./images/flight2.png'); }
-} */
-
-/* 8888888888888888888888888888888888888888888888888888888888888888888888 */
-/* 
- .bg{ */
- 
-  /* background: linear-gradient(to bottom, #dcddde, #bcbec0); */
-  /* background-image: url('flight1.png');
-  background-repeat: repeat;
-  background-size: cover; */
-/* }
-.container {
-  position: relative;
-  width: 800px;
-  height: 500px; 
-
-  overflow: hidden;
-
-}
-
-.background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  animation: backgroundAnimation 6s infinite;
-}
-
-.window1, .window2, .window3 {
-  margin-top: 13%;
-  position: absolute;
-  width: 110px; 
-  height: 110px; 
-  overflow: hidden;
-}
-
-.image {
-  width: 62px;
-  height: 97px;
-  border-radius: 20px;
-  opacity: 0;
-  animation: imageAnimation 6s infinite;
-}  */
-
-/* @keyframes backgroundAnimation {
-  0%, 33.33% { background-image: url('./images/flight1.png'); }
-  33.33%, 66.66% { background-image: url('./images/flight3.png'); }
-  66.67%, 100% { background-image: url('./images/flight2.png'); }
-  33.33%, 66.66% { background-image: url('flight4.png'); }
-  33.33%, 66.66% { background-image: url('flight5.png'); }
- 
-}
-
-@keyframes imageAnimation {
-  0%, 66.66% { opacity: 0; }
-  66.67%, 100% { opacity: 1; }
-} */
-
-
- @keyframes backgroundAnimation {
-  0%, 20% { background-image: url('./images/flight1.png'); }
-  20.01%, 40% { background-image: url('./images/flight3.png'); }
-  40.01%, 60% { background-image: url('./images/flight2.png'); }
-  60.01%, 80% { background-image: url('flight4.png'); }
-  80.01%, 100% { background-image: url('flight5.png'); }
-}
-
-@keyframes imageAnimation {
-  0%, 40% { opacity: 0; }
-  40.01%, 60% { opacity: 1; }
-  60.01%, 100% { opacity: 0; }
-} 
-
+/* correct */
 @keyframes openShutter {
-  0% { transform: scaleY(0); }
-  50% { transform: scaleY(1); }
-  100% { transform: scaleY(1); }
+  0% { transform: scaleY(0); transform-origin: bottom; }
+  100% { transform: scaleY(1); transform-origin: bottom; }
 }
 
 @keyframes closeShutter {
-  0% { transform: scaleY(1); }
-  50% { transform: scaleY(0); }
-  100% { transform: scaleY(0); }
+  0% { transform: scaleY(1); transform-origin: bottom; }
+  100% { transform: scaleY(0); transform-origin: bottom; }
 }
 
-.window {
-  position: absolute;
-  overflow: hidden;
-  /* Add other styling as needed */
-}
-
-/* Animation applied to the open state */
-.open .image {
-  animation: openShutter 2s forwards;
-}
-
-/* Animation applied to the close state */
-.close .image {
-  animation: closeShutter 2s forwards;
-}
-
-/* Specific positions for each window */
-.window1 { top: 100px; left: 225px; }
-.window2 { top: 100px; left: 380px; }
-.window3 { top: 100px; left: 542px; }
-
-/* Additional styling */
-/* .bg { /* Add styling for the background container */  */
-
-.container {
-  position: relative;
-  width: 800px;
-  height: 500px; 
-
-  overflow: hidden;
-
-}
-
-.background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  animation: backgroundAnimation 6s infinite;
-}
-
- /* 888888888888888888888888888888888888888888888888888888888 */
-
- /* .bg {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  background-image: url('flight1.png');
+.containers {
  
-}
 
-.container {
-  position: relative;
+  display: flex;
+  position: fixed; 
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  z-index: -1; 
+  animation: backgroundAnimation 12s infinite;
 }
 
 .background {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-size: cover;
-  animation: backgroundAnimation 6s infinite;
-  background-blend-mode: overlay; 
+  background-size: contain;
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  animation: backgroundAnimation 12s infinite;
+}
+.window {
+  position: relative;
+  margin-top: 20%;
+  margin-left: 9.5%;
+  overflow: hidden;
+}
+.window1 {
+  position: relative;
+ 
+  margin-top: 20%;
+  margin-left: 32.5%;
+  overflow: hidden;
 }
 
-.window1, .window2, .window3 {
-  margin-top: 12%;
-  position: absolute;
-  width: 110px; 
-  height: 110px; 
-  overflow: hidden;
+.open .image {
+  animation: openShutter 6s forwards; 
+}
+
+.close .image {
+  animation: closeShutter 4s forwards; 
 }
 
 .image {
-  width: 62px;
-  height: 97px;
+  width: 65px;
+  height: 100px;
+  object-fit: cover; 
   border-radius: 20px;
-  opacity: 0;
-  animation: imageAnimation 6s infinite;
+ 
+}
+
+.image1 {
+  width: 65px;
+  height: 100px;
+ border-radius: 20px;
+}
+
+.open .image1 {
+  animation: openShutter 4s forwards; 
+}
+
+.close .image1 {
+  animation: closeShutter 4s forwards; 
+}
+.window2 {
+  position: relative;
+ 
+  margin-top: 20%;
+  margin-left:9.5%;
+  overflow: hidden;
+}
+.image2 {
+  width: 65px;
+  height: 96px;
+  border-radius: 20%;
+ 
+ 
+}
+
+.open .image2 {
+  animation: openShutter 4s forwards; 
+}
+
+.close .image2 {
+  animation: closeShutter 4s forwards; 
 }
 
 @keyframes backgroundAnimation {
-  0%, 20% { background-image: url('./images/flight1.png'); }
-  20.01%, 40% { background-image: url('./images/flight3.png'); }
-  40.01%, 60% { background-image: url('./images/flight2.png'); }
-  60.01%, 80% { background-image: url('flight4.png'); }
-  80.01%, 100% { background-image: url('flight5.png'); }
+  0%, 16.67% { background-image: url('./images/f1.png'); }
+  16.68%, 33.34% { background-image: url('./images/f2.png'); }
+  33.35%, 50% { background-image: url('./images/f3.png'); }
+  50.01%, 66.67% { background-image: url('./images/f2.png'); }
+  66.68%, 83.34% { background-image: url('./images/flight5.png'); }
+  83.35%, 100% { background-image: url('./images/f1.png'); }
 }
 
-@keyframes imageAnimation {
-  0%, 40% { opacity: 0; }
-  40.01%, 60% { opacity: 1; }
-  60.01%, 100% { opacity: 0; }
+
+/* 
+@keyframes openShutter {
+  0% { transform: scaleY(0); transform-origin: bottom; }
+  50% { transform: scaleY(1); transform-origin: bottom; }
+  100% { transform: scaleY(0); transform-origin: bottom; }
+}
+
+@keyframes closeShutter {
+  0% { transform: scaleY(1); transform-origin: bottom; }
+  50% { transform: scaleY(0); transform-origin: bottom; }
+  100% { transform: scaleY(1); transform-origin: bottom; }
+}
+
+.containers {
+  display: flex;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  z-index: -1; 
+  animation: backgroundAnimation 12s infinite;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  animation: backgroundAnimation 12s infinite;
+}
+
+.window {
+  position: relative;
+  margin-top: 20%;
+  margin-left: 9.5%;
+  overflow: hidden;
+}
+
+.window1 {
+  position: relative;
+  margin-top: 20%;
+  margin-left: 32.5%;
+  overflow: hidden;
+}
+
+.open .image {
+  animation: openShutter 6s forwards; 
+}
+
+.close .image {
+  animation: closeShutter 6s forwards; 
+}
+
+.image {
+  width: 65px;
+  height: 100px;
+  object-fit: cover; 
+  border-radius: 20px;
+}
+
+.image1 {
+  width: 65px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.window2 {
+  position: relative;
+  margin-top: 20%;
+  margin-left: 9.5%;
+  overflow: hidden;
+}
+
+.image2 {
+  width: 65px;
+  height: 96px;
+  border-radius: 20%;
+}
+
+.open .image2, .close .image2 {
+  animation: openShutter 6s forwards; 
+}
+
+@keyframes backgroundAnimation {
+  0%, 16.67% { background-image: url('./images/f1.png'); }
+  16.68%, 33.34% { background-image: url('./images/f2.png'); }
+  33.35%, 50% { background-image: url('./images/f3.png'); }
+  50.01%, 66.67% { background-image: url('./images/f2.png'); }
+  66.68%, 83.34% { background-image: url('./images/flight5.png'); }
+  83.35%, 100% { background-image: url('./images/f1.png'); }
 } */
