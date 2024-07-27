@@ -6,17 +6,17 @@ function Menu() {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="primary" data-bs-theme="dark">
-      <Container>
+      <Container style={{padding:'1%'}}>
         
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto" style={{clor:'white'}}>
+          <Nav className="mx-auto" style={{clor:'white'}}>
             <Nav.Link href="#features">Home</Nav.Link>
             {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
            
           </Nav>
-          <Nav>
-          <NavDropdown title="Package" id="collapsible-nav-dropdown">
+          <Nav style={{gap:'5vh'}}>
+          <NavDropdown title="Package" id="collapsible-nav-dropdown"  >
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
