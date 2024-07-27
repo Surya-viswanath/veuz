@@ -1,4 +1,4 @@
-
+/* 
 .banner-app {
     font-family: sans-serif;
     display: flex;
@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    max-width: 1000px; /* Adjusted for better layout with 3 cards */
+    max-width: 1000px; 
   }
   
   .con-header {
@@ -53,10 +53,10 @@
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* text-align: center; */
+    
     text-align: start;
     height: auto;
-    /* width: 200px; */
+   
     flex: 1;
     margin-bottom: -10%;
   }
@@ -66,7 +66,7 @@
     margin-bottom: 10px;
     font-size: 4em;
     color: #007bff;
-    /* text-align: start; */
+   
   
   }
   .con-icon-img{
@@ -100,4 +100,133 @@
     cursor: pointer;
     font-size: 14px;
     font-weight: 300;
-  }
+  } */
+
+
+  .banner-app {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; 
+    width: 100%;
+    background-image: url('../images/card2banner.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    margin: 0;
+}
+
+.con-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.con-header {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.nav1 span {
+    height: 50px;
+    width: 50px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-arrow, .right-arrow {
+    cursor: pointer;
+}
+
+.con-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.con-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: start;
+    flex: 1 1 30%; /* This makes the cards flexible */
+    min-width: 200px; /* Ensure minimum size */
+    max-width: 30%;
+    margin-bottom: 20px;
+}
+
+.con-icon {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 4em;
+    color: #007bff;
+}
+
+.con-icon-img {
+    border-radius: 5px;
+    width: 35%;
+}
+
+.content-div {
+    text-align: start;
+}
+
+.con-card h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.con-card p {
+    margin-bottom: 10px;
+    line-height: 1.2;
+    font-size: 14px;
+    color: gray;
+}
+
+.con-card button {
+    background: none;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .con-card {
+        flex: 1 1 45%; /* Two cards per row on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .con-card {
+        flex: 1 1 100%; /* Single card per row on small screens */
+    }
+
+    .nav1 {
+        justify-content: space-around;
+    }
+
+    .nav1 span {
+        height: 40px;
+        width: 40px;
+    }
+}

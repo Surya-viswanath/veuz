@@ -8,7 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <>
+    <div>
     <footer className="bg-white py-4">
       <Container>
         <Row>
@@ -47,7 +47,7 @@ const Footer = () => {
   
 
   </footer>
-    </>
+    </div>
   );
 };
 

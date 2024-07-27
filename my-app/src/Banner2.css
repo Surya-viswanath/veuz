@@ -12,13 +12,12 @@
     text-align: center;
   }
   
-  /* .subscription-content {
+  .subscription-content {
     max-width: 800px;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.5); 
     border-radius: 10px;
   }
-   */
+  
   .subscription-content h1 {
     font-size: 2rem;
     margin-bottom: 10px;
@@ -34,13 +33,12 @@
     justify-content: center;
     align-items: center;
   }
-  
   .subscription-form input {
     padding: 10px;
     border: none;
     border-radius: 25px 0 0 25px;
     outline: none;
-    width: 300px;
+    /* width: 300px; */
   }
   
   .subscription-form button {
