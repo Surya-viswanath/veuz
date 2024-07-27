@@ -477,7 +477,7 @@
   .window1 {
     position: relative;
     margin-top:42%;
-    margin-left: 13%;
+    margin-left: 12%;
     overflow: hidden;
     /* border-radius: 20px; */
     height: 88px;
@@ -486,7 +486,7 @@
  .window2 {
     position: relative;
     margin-top: 42%;
-    margin-left:22%;
+    margin-left:18%;
     overflow: hidden;
     border-radius: 20px;
     height: 88px;
@@ -494,13 +494,13 @@
   .window {
     position: relative;
     margin-top: 42%;
-    margin-left: 18%;
+    margin-left: 10%;
     overflow: hidden;
     border-radius: 20px;
     height: 88px;
   } 
   .image1 , .image2 , .image{
-    width: 60px;
+    width: 55px;
     height: 80px;
    /* border-radius: 20px; */
   } 
