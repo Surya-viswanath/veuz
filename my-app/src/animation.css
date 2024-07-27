@@ -494,13 +494,13 @@
   .window {
     position: relative;
     margin-top: 42%;
-    margin-left: 25%;
+    margin-left: 10%;
     overflow: hidden;
     border-radius: 20px;
     height: 88px;
   } 
   .image1 , .image2 , .image{
-    width: 50px;
+    width: 53px;
     height: 78px;
    /* border-radius: 20px; */
   } 
