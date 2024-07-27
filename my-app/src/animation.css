@@ -480,7 +480,7 @@
     margin-left: 12.5%;
     overflow: hidden;
     /* border-radius: 20px; */
-    height: 88px;
+    height: 80px;
    
   } 
  .window2 {
@@ -489,15 +489,15 @@
     margin-left:20%;
     overflow: hidden;
     border-radius: 20px;
-    height: 88px;
+    height: 80px;
   }
   .window {
     position: relative;
     margin-top: 42%;
-    margin-left: 10%;
+    margin-left: 15%;
     overflow: hidden;
     border-radius: 20px;
-    height: 88px;
+    height: 80px;
   } 
   .image1 , .image2 , .image{
     width: 53px;
