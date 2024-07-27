@@ -1,5 +1,5 @@
 
-@keyframes openShutter {
+/* @keyframes openShutter {
   0% { transform: scaleY(0); transform-origin: top; }
   100% { transform: scaleY(1); transform-origin: top; }
 }
@@ -109,6 +109,271 @@
   overflow: hidden;
   border-radius: 20px;
   height: 100px;
+} */
+
+
+
+/* 
+@keyframes openShutter {
+  0% { transform: scaleY(0); transform-origin: top; }
+  100% { transform: scaleY(1); transform-origin: top; }
 }
 
+@keyframes closeShutter {
+  0% { transform: scaleY(1); transform-origin: top; }
+  100% { transform: scaleY(0); transform-origin: top; }
+}
+
+@keyframes backgroundAnimation {
+  0%, 16.67% { background-image: url('./images/f1.png'); }
+  16.68%, 33.34% { background-image: url('./images/f2.png'); }
+  33.35%, 50% { background-image: url('./images/f3.png'); }
+  50.01%, 66.67% { background-image: url('./images/f2.png'); }
+  66.68%, 83.34% { background-image: url('./images/flight5.png'); }
+  83.35%, 100% { background-image: url('./images/f1.png'); }
+}
+
+.containers {
+  display: flex;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center fixed; 
+  z-index: -1; 
+  animation: backgroundAnimation 12s infinite;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  animation: backgroundAnimation 12s infinite;
+ 
+  overflow: hidden;
+}
+
+.shutter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+  background:  #bcbec0;
+ 
+  transform-origin: bottom;
+  z-index: 2; 
+}
+
+.open .shutter {
+  animation: openShutter 4s forwards; 
+}
+
+.closed .shutter {
+  animation: closeShutter 4s forwards; 
+}
+
+.window2 {
+  position: relative;
+  margin-top: 17.5%;
+  margin-left:8%;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 100px;
+}
+.image2 {
+  width: 65px;
+  height: 96px;
+  border-radius: 20%;
+ 
+ 
+}
+
+.image {
+  width: 65px;
+  height: 100px;
+  object-fit: cover; 
+  border-radius: 20px;
+ 
+}
+
+.image1 {
+  width: 65px;
+  height: 100px;
+ border-radius: 20px;
+}
+.window {
+  position: relative;
+  margin-top: 17.5%;
+  margin-left: 8%;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 100px;
+}
+.window1 {
+  position: relative;
+  margin-top: 17.5%;
+  margin-left: 34.3%;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 100px;
+}  
+
+
 /* responsive */
+
+
+@keyframes openShutter {
+  0% { transform: scaleY(0); transform-origin: top; }
+  100% { transform: scaleY(1); transform-origin: top; }
+}
+
+@keyframes closeShutter {
+  0% { transform: scaleY(1); transform-origin: top; }
+  100% { transform: scaleY(0); transform-origin: top; }
+}
+
+@keyframes backgroundAnimation {
+  0%, 16.67% { background-image: url('./images/f1.png'); }
+  16.68%, 33.34% { background-image: url('./images/f2.png'); }
+  33.35%, 50% { background-image: url('./images/f3.png'); }
+  50.01%, 66.67% { background-image: url('./images/f2.png'); }
+  66.68%, 83.34% { background-image: url('./images/flight5.png'); }
+  83.35%, 100% { background-image: url('./images/f1.png'); }
+}
+
+.containers {
+  display: flex;
+  /* position: fixed;  */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95vh;
+  /* background-size: cover;  */
+  background-color: #dcddde;
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  z-index: -1; 
+  animation: backgroundAnimation 12s infinite;
+  overflow: hidden;
+}
+
+/* .background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat; 
+  background-position: center center;
+  animation: backgroundAnimation 12s infinite;
+  overflow: hidden;
+} */
+
+.shutter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:  #bcbec0;
+  transform-origin: bottom;
+  z-index: 2; 
+}
+
+.open .shutter {
+  animation: openShutter 4s forwards; 
+}
+
+.closed .shutter {
+  animation: closeShutter 4s forwards; 
+}
+
+.window2 {
+  position: relative;
+  margin-top: 16.8%;
+  margin-left:7.4%;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 100px;
+}
+.image2 {
+  width: 65px;
+  height: 96px;
+  border-radius: 20%;
+ 
+ 
+}
+
+.image {
+  width: 65px;
+  height: 100px;
+  object-fit: cover; 
+  border-radius: 20px;
+ 
+}
+
+.image1 {
+  width: 65px;
+  height: 100px;
+ border-radius: 20px;
+}
+.window {
+  position: relative;
+  margin-top: 16.8%;
+  margin-left: 7.3%;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 100px;
+}
+.window1 {
+  position: relative;
+  margin-top: 16.8%;
+  margin-left: 34.8%;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 98px;
+}  
+
+
+@media (max-width: 480px) {
+  .window1, .window2, .window {
+    height: 100px; 
+    width: 100px;
+    margin-top: 0;
+  }
+
+  .containers {
+    display: flex;
+    /* position: fixed;  */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    z-index: -1; 
+    animation: backgroundAnimation 12s infinite;
+    /* overflow: hidden; */
+  }
+  
+  .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    animation: backgroundAnimation 12s infinite;
+   
+    overflow: hidden;
+  }
+}

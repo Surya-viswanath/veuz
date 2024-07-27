@@ -72,7 +72,7 @@ import './animation.css';
 import img1 from './images/img1.png';
 import img2 from './images/img2.png';
 import img3 from './images/img3.png';
-
+import { Col, Row } from 'react-bootstrap'
 const Animation = () => {
     const [windowState, setWindowState] = useState('closed');
 
@@ -101,7 +101,7 @@ const Animation = () => {
 
     return (
         <div className="containers">
-            <div className="background"></div>
+            {/* <div className="background"></div> */}
             <div className={`window1 ${windowState}`}>
                 <img src={img1} className="image1" alt="Window 1" />
                 <div className={`shutter ${windowState}`}></div>
@@ -114,8 +114,30 @@ const Animation = () => {
                 <img src={img3} className="image" alt="Window 3" />
                 <div className={`shutter ${windowState}`}></div>
             </div>
+            
         </div>
+
+        // <div className="containers">
+        //     <div className="background">
+        //     <Row className='container2  justify-content-md-center'>
+        //     <Col xs lg="2" className={`window1 ${windowState}`}>
+        //         <img src={img1} className="image1" alt="Window 1" />
+        //         <div className={`shutter ${windowState}`}></div>
+        //     </Col>
+        //     <Col xs lg="2" className={`window2 ${windowState}`}>
+        //         <img src={img2} className="image2" alt="Window 2" />
+        //         <div className={`shutter ${windowState}`}></div>
+        //     </Col>
+        //     <Col xs lg="2" className={`window ${windowState}`}>
+        //         <img src={img3} className="image" alt="Window 3" />
+        //         <div className={`shutter ${windowState}`}></div>
+        //     </Col>
+        //     </Row>
+        //     </div>
+        // </div>
     );
 };
 
 export default Animation;
+
+// responsive

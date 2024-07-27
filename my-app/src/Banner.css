@@ -1,4 +1,4 @@
-/* .background{
+.backgroundh{
     background-image: url('banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -7,8 +7,8 @@
     width: 100%;
     height:88vh;
   }
-  .banner{
+  .bannerh{
     color: white;
     margin-top: 18%;
     margin-left: 5%;
-  }  */
+  } 
