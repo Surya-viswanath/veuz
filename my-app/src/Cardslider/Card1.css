@@ -118,3 +118,11 @@
     margin-bottom: 60px; /* Create space for the content */
   }
   
+  @media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #116cf5;
+        margin-bottom: 10px;
+      }
+  }

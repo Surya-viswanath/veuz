@@ -46,7 +46,6 @@ function Card1() {
         title: 'New York City',
         description: 'The iconic skyline of New York City, with the Statue of Liberty in the foreground.',
       },
-    // Add more slides here if you have more images
   ];
 
   const slidesPerPage = 3;
@@ -60,20 +59,18 @@ function Card1() {
     setCurrentSlide((prevSlide) => (prevSlide - 1 + totalPages) % totalPages);
   };
 
-  // Calculate the visible slides based on the current slide
+
   const visibleSlides = slides.slice(currentSlide * slidesPerPage, (currentSlide + 1) * slidesPerPage);
 
   return (
     <div className="cardapp">
-      {/* <div className="header"> */}
+     
       <Container className="me-auto header" style={{width:'50%'}}> 
      <h1>Explore new worlds with exotic natural scenery</h1>
         <p>Explore the world with what you love beautiful natural beauty.</p>
        
       </Container>
         
-      
-      {/* </div> */}
       <div className="content">
       <div className="nav1">
           <span className="left-arrow shadow  bg-white rounded" onClick={handlePreviousSlide}>&lt;</span>
